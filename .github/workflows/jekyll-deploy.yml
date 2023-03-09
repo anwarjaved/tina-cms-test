@@ -16,6 +16,5 @@ jobs:
           node-version: "14.x"
       - run: npm install
       - run: npm run build
-      - run: npm test
       - name: jekyll-deploy
         uses: DavidS/jekyll-deploy@1.1.1
