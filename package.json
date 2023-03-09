@@ -13,7 +13,7 @@
     "stylelint-prettier": "^2.0.0"
   },
   "scripts": {
-	"preinstall": "gem install bundler && bundle install",
+	"preinstall": "sudo gem install bundler && sudo bundle install",
     "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
     "build": "tinacms build && jekyll build",
     "start": "tinacms build && next start",
