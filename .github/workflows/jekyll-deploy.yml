@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "18.x"
-      - run: gem install bundler && bundle install
+      - run: sudo gem install bundler && sudo bundle install
       - run: npm install
       - run: npm run build
       - name: jekyll-deploy
