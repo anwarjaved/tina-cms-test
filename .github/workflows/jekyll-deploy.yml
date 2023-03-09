@@ -14,7 +14,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "18.x"
-      - run: sudo gem install bundler && sudo bundle install
+      - name: Set-up Ruby
+        uses: actions/setup-node@v1
+        with:
+          ruby-version: '2.7.7' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+        
+      - run: sudo gem install bundler && bundle install
       - run: npm install
       - run: npm run build
       - name: jekyll-deploy
