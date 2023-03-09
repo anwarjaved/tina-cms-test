@@ -14,12 +14,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "18.x"
-      - run: sudo gem install bundler:2.4.8 && sudo bundle install
+      - run: gem install bundler && bundle install
       - run: npm install
-      - name: GHA Jekyll Build
-        uses: gha-utilities/jekyll-build@v0.0.9
-        with:
-          jekyll_github_token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
       - run: npm run build
       - name: jekyll-deploy
         uses: DavidS/jekyll-deploy@1.1.1
