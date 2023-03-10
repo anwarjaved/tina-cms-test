@@ -23,6 +23,5 @@ jobs:
       - name: Jekyll Deploy Action
         uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
-          node-version: "18.x"
-          ruby-version: '3.3.22' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          JEKYLL_ENV: production
+          GH_PAGES_TOKEN: "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"
