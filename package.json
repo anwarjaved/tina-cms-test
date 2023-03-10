@@ -1,10 +1,10 @@
 {
-  "name": "just-the-docs",
+  "name": "tina-cms-test",
   "version": "0.3.3",
   "description": "A modern Jekyll theme for documentation",
-  "repository": "just-the-docs/just-the-docs",
+  "repository": "anwarjaved/tina-cms-test",
   "license": "MIT",
-  "bugs": "https://github.com/just-the-docs/just-the-docs/issues",
+  "bugs": "https://github.com/anwarjaved/tina-cms-test/issues",
   "devDependencies": {
     "prettier": "^2.8.4",
     "stylelint": "^14.16.1",

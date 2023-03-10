@@ -1,11 +1,11 @@
 <p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
+    <a href="https://badge.fury.io/rb/tina-cms-test"><img src="https://badge.fury.io/rb/tina-cms-test.svg" alt="Gem version"></a> <a href="https://github.com/anwarjaved/tina-cms-test/actions/workflows/ci.yml"><img src="https://github.com/anwarjaved/tina-cms-test/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/tina-cms-test/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
 </p>
 <br><br>
 <p align="center">
     <h1 align="center">Just the Docs</h1>
     <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.github.io/just-the-docs/">See it in action!</a></strong></p>
+    <p align="center"><strong><a href="https://anwarjaved.github.io/tina-cms-test/">See it in action!</a></strong></p>
     <br><br><br>
 </p>
 
@@ -27,10 +27,10 @@ If [Jekyll] is installed on your computer, you can also build and preview the cr
 
 More specifically, the created site:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
+- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `tina-cms-test` gem
 - uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `tina-cms-test` and Jekyll it uses, as well as adding further plugins.
 
 ### Use RubyGems
 
@@ -39,13 +39,13 @@ Alternatively, you can install the theme as a Ruby Gem, without creating a new s
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "just-the-docs"
+gem "tina-cms-test"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: just-the-docs
+theme: tina-cms-test
 ```
 
 And then execute:
@@ -54,7 +54,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install just-the-docs
+    $ gem install tina-cms-test
 
 Alternatively, you can run it inside Docker while developing your site
 
@@ -66,13 +66,13 @@ Alternatively, you can run it inside Docker while developing your site
 
 ## Contributing
 
-Bug reports, proposals of new features, and pull requests are welcome on GitHub at https://github.com/just-the-docs/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports, proposals of new features, and pull requests are welcome on GitHub at https://github.com/anwarjaved/tina-cms-test. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ### Submitting code changes:
 
-- Submit an [Issue](https://github.com/just-the-docs/just-the-docs/issues) that motivates the changes, using the appropriate template
+- Submit an [Issue](https://github.com/anwarjaved/tina-cms-test/issues) that motivates the changes, using the appropriate template
 - Discuss the proposed changes with other users and the maintainers
-- Open a [Pull Request](https://github.com/just-the-docs/just-the-docs/pulls)
+- Open a [Pull Request](https://github.com/anwarjaved/tina-cms-test/pulls)
 - Ensure all CI tests pass
 - Provide instructions to check the effect of the changes
 - Await code review
@@ -101,10 +101,10 @@ The theme is available as open source under the terms of the [MIT License](http:
 [^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 [Jekyll]: https://jekyllrb.com
-[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
+[Just the Docs Template]: https://anwarjaved.github.io/tina-cms-test/-template/
+[Just the Docs]: https://anwarjaved.github.io/tina-cms-test/
+[Just the Docs repo]: https://github.com/anwarjaved/tina-cms-test
 [GitHub Pages]: https://pages.github.com/
-[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
+[Template README]: https://github.com/anwarjaved/tina-cms-test-template/blob/main/README.md
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[use the template]: https://github.com/anwarjaved/tina-cms-test-template/generate

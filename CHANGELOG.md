@@ -30,7 +30,7 @@ Docs changes in `main` that are *not* in the latest release:
 
 Hello! We hope you've been enjoying the new `v0.4.0`; we appreciate all the feedback we've gotten already! As promised, future releases will be small with simple steps to upgrade. This is one of them! `v0.4.1` is a [semver patch](https://semver.org/): it only includes bugfixes, and is fully backwards-compatible.
 
-As always, we'd love your feedback. [Open an issue](https://github.com/just-the-docs/just-the-docs/issues) or [start a discussion](https://github.com/just-the-docs/just-the-docs/discussions) for bug reports, feature requests, and any other feedback. Thanks for continuing to use Just the Docs!
+As always, we'd love your feedback. [Open an issue](https://github.com/anwarjaved/tina-cms-test/issues) or [start a discussion](https://github.com/anwarjaved/tina-cms-test/discussions) for bug reports, feature requests, and any other feedback. Thanks for continuing to use Just the Docs!
 
 ### Using Release `v0.4.1`
 
@@ -39,13 +39,13 @@ Users who have not pinned the theme version will be **automatically upgraded to 
 To use this release explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.1
+remote_theme: anwarjaved/tina-cms-test@v0.4.1
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.1"
+gem "tina-cms-test", "0.4.1"
 ```
 
 To use and pin a previous version of the theme, replace the `0.4.1` with the desired release tag.
@@ -66,16 +66,16 @@ To use and pin a previous version of the theme, replace the `0.4.1` with the des
 - [@flyx] made their first contribution in [#1168]
 - [@Dima-369] made their first contribution in [#1177]
 
-[#1108]: https://github.com/just-the-docs/just-the-docs/pull/1108
-[#1165]: https://github.com/just-the-docs/just-the-docs/pull/1165
-[#1167]: https://github.com/just-the-docs/just-the-docs/pull/1167
-[#1168]: https://github.com/just-the-docs/just-the-docs/pull/1168
-[#1177]: https://github.com/just-the-docs/just-the-docs/pull/1177
+[#1108]: https://github.com/anwarjaved/tina-cms-test/pull/1108
+[#1165]: https://github.com/anwarjaved/tina-cms-test/pull/1165
+[#1167]: https://github.com/anwarjaved/tina-cms-test/pull/1167
+[#1168]: https://github.com/anwarjaved/tina-cms-test/pull/1168
+[#1177]: https://github.com/anwarjaved/tina-cms-test/pull/1177
 
 [@flyx]: https://github.com/flyx
 [@Dima-369]: https://github.com/Dima-369
 
-**Full Changelog**: [https://github.com/just-the-docs/just-the-docs/compare/v0.4.0...v0.4.1](https://github.com/just-the-docs/just-the-docs/compare/v0.4.0...v0.4.1)
+**Full Changelog**: [https://github.com/anwarjaved/tina-cms-test/compare/v0.4.0...v0.4.1](https://github.com/anwarjaved/tina-cms-test/compare/v0.4.0...v0.4.1)
 
 ## Release v0.4.0
 
@@ -86,16 +86,16 @@ We're so excited to release Just the Docs `v0.4.0`. This release has been almost
 `v0.4.0` contains many new features and bugfixes. We enumerate all of them in further sections in this changelog; however, we'd like to call out some of the most-requested changes:
 
 - better support for dark theme: dark highlighting, search input color
-- [callouts](https://just-the-docs.github.io/just-the-docs/docs/ui-components/callouts/), a new design component to highlight content
-- [configuring mermaid.js](https://just-the-docs.github.io/just-the-docs/docs/ui-components/code/#mermaid-diagram-code-blocks), a markdown-native diagram visualization library
-- [copy code button](https://just-the-docs.github.io/just-the-docs/docs/ui-components/code/#copy-button) for code snippets
-- [external navigation links](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/#external-navigation-links)
+- [callouts](https://anwarjaved.github.io/tina-cms-test/docs/ui-components/callouts/), a new design component to highlight content
+- [configuring mermaid.js](https://anwarjaved.github.io/tina-cms-test/docs/ui-components/code/#mermaid-diagram-code-blocks), a markdown-native diagram visualization library
+- [copy code button](https://anwarjaved.github.io/tina-cms-test/docs/ui-components/code/#copy-button) for code snippets
+- [external navigation links](https://anwarjaved.github.io/tina-cms-test/docs/navigation-structure/#external-navigation-links)
 - major improvements to nav generation efficiency and robustness
 - minor improvements to built-in accessibility (SVG icons, nav titles, skip to main content)
-- [modularized site components](https://just-the-docs.github.io/just-the-docs/docs/customization/#custom-layouts-and-includes) (advanced feature)
-- [new custom includes](https://just-the-docs.github.io/just-the-docs/docs/customization/#override-includes): table of contents heading, navigation panel footer, search placeholder, lunr search indices
+- [modularized site components](https://anwarjaved.github.io/tina-cms-test/docs/customization/#custom-layouts-and-includes) (advanced feature)
+- [new custom includes](https://anwarjaved.github.io/tina-cms-test/docs/customization/#override-includes): table of contents heading, navigation panel footer, search placeholder, lunr search indices
 - bugfixes involving WEBrick and Ruby 3, Liquid processing in CSS comments, nested task lists, relative URLs, scroll navigation, corrupted search data from rake, breadcrumbs, and more!
-- more documentation for [custom includes](https://just-the-docs.github.io/just-the-docs/docs/customization/#override-includes), this changelog, and the [migration guide](https://just-the-docs.github.io/just-the-docs/MIGRATION/)
+- more documentation for [custom includes](https://anwarjaved.github.io/tina-cms-test/docs/customization/#override-includes), this changelog, and the [migration guide](https://anwarjaved.github.io/tina-cms-test/MIGRATION/)
 
 *After usage instructions and the roadmap, we enumerate all changes from `v0.3.3`.*
 
@@ -106,35 +106,35 @@ Unlike pre-releases, `v0.4.0` is a new semver minor release for the theme. That 
 To use this release explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0
+remote_theme: anwarjaved/tina-cms-test@v0.4.0
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.0"
+gem "tina-cms-test", "0.4.0"
 ```
 
 If you would prefer to not upgrade, you can enforce that explicitly:
 
 1. pin your gem version in your `Gemfile`, like so
 ```ruby
-gem "just-the-docs", "0.3.3"
+gem "tina-cms-test", "0.3.3"
 ```
 2. freeze the `remote_theme`, like so
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: anwarjaved/tina-cms-test@v0.3.3
 ```
 
 ### Migration Guide and Strategies
 
-We've developed a new [migration guide](https://just-the-docs.github.io/just-the-docs/MIGRATION/) for users to migrate from version `v0.3.3` to `v0.4.0`. It outlines major changes in project maintenance (e.g. new repository link, team) as well as breaking changes that may break your site (and potential solutions). We suggest that all users refer to the guide before manually upgrading their site.
+We've developed a new [migration guide](https://anwarjaved.github.io/tina-cms-test/MIGRATION/) for users to migrate from version `v0.3.3` to `v0.4.0`. It outlines major changes in project maintenance (e.g. new repository link, team) as well as breaking changes that may break your site (and potential solutions). We suggest that all users refer to the guide before manually upgrading their site.
 
 **For the vast majority of users, we do not anticipate that this will be a breaking change.** The major touch points are surrounding new includes, navigation (ordering, pages, and collections), the favicon, and a shift to relative URLs. However, users who heavily customize the theme (primarily by overriding includes) will likely have to make minor changes.
 
 Given the length of features added in this release, users may want to incrementally upgrade through the pre-releases. To follow this approach, read this changelog from `v0.4.0.rc1` to `v0.4.0.rc5`; this breaks down the release into small chunks, each of which should be easier to upgrade. `v0.4.0.rc5` is identical to this release.
 
-For support with migrating to `v0.4.0`, [open an issue](https://github.com/just-the-docs/just-the-docs/issues) or [start a discussion](https://github.com/just-the-docs/just-the-docs/discussions) and let us know!
+For support with migrating to `v0.4.0`, [open an issue](https://github.com/anwarjaved/tina-cms-test/issues) or [start a discussion](https://github.com/anwarjaved/tina-cms-test/discussions) and let us know!
 
 ### Roadmap (What's Next?)
 
@@ -157,7 +157,7 @@ In future versions, we also plan on:
 - improving search functionality
 - refactoring and improving the robustness of our codebase
 
-Have ideas for what's next, or want to get involved? [Open an issue](https://github.com/just-the-docs/just-the-docs/issues) or [start a discussion](https://github.com/just-the-docs/just-the-docs/discussions) and let us know! We're looking for more contributors and maintainers to help us develop the theme.
+Have ideas for what's next, or want to get involved? [Open an issue](https://github.com/anwarjaved/tina-cms-test/issues) or [start a discussion](https://github.com/anwarjaved/tina-cms-test/discussions) and let us know! We're looking for more contributors and maintainers to help us develop the theme.
 
 ### New Features
 
@@ -341,24 +341,24 @@ Simlar to the prior release, `v0.4.0.rc5` is a **release candidate** for the the
 To use this RC explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc5
+remote_theme: anwarjaved/tina-cms-test@v0.4.0.rc5
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.0.rc5"
+gem "tina-cms-test", "0.4.0.rc5"
 ```
 
 By default, **users will not be upgraded to `0.4.0.rc5`**. To enforce that explicitly, either:
 
 1. pin your gem version in your `Gemfile`, like so
 ```ruby
-gem "just-the-docs", "0.3.3"
+gem "tina-cms-test", "0.3.3"
 ```
 2. freeze the `remote_theme`, like so
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: anwarjaved/tina-cms-test@v0.3.3
 ```
 
 ### New Features
@@ -393,20 +393,20 @@ remote_theme: just-the-docs/just-the-docs@v0.3.3
 - [@m-r-mccormick] made their first contribution in [#1142]
 - [@fabrik42] made their first contribution in [#1153]
 
-[#1059]: https://github.com/just-the-docs/just-the-docs/pull/1059
-[#1068]: https://github.com/just-the-docs/just-the-docs/pull/1068
-[#1097]: https://github.com/just-the-docs/just-the-docs/pull/1097
-[#1106]: https://github.com/just-the-docs/just-the-docs/pull/1106
-[#1123]: https://github.com/just-the-docs/just-the-docs/pull/1123
-[#1124]: https://github.com/just-the-docs/just-the-docs/pull/1124
-[#1128]: https://github.com/just-the-docs/just-the-docs/pull/1128
-[#1130]: https://github.com/just-the-docs/just-the-docs/pull/1130
-[#1135]: https://github.com/just-the-docs/just-the-docs/pull/1135
-[#1138]: https://github.com/just-the-docs/just-the-docs/pull/1138
-[#1139]: https://github.com/just-the-docs/just-the-docs/pull/1139
-[#1142]: https://github.com/just-the-docs/just-the-docs/pull/1142
-[#1143]: https://github.com/just-the-docs/just-the-docs/pull/1143
-[#1153]: https://github.com/just-the-docs/just-the-docs/pull/1153
+[#1059]: https://github.com/anwarjaved/tina-cms-test/pull/1059
+[#1068]: https://github.com/anwarjaved/tina-cms-test/pull/1068
+[#1097]: https://github.com/anwarjaved/tina-cms-test/pull/1097
+[#1106]: https://github.com/anwarjaved/tina-cms-test/pull/1106
+[#1123]: https://github.com/anwarjaved/tina-cms-test/pull/1123
+[#1124]: https://github.com/anwarjaved/tina-cms-test/pull/1124
+[#1128]: https://github.com/anwarjaved/tina-cms-test/pull/1128
+[#1130]: https://github.com/anwarjaved/tina-cms-test/pull/1130
+[#1135]: https://github.com/anwarjaved/tina-cms-test/pull/1135
+[#1138]: https://github.com/anwarjaved/tina-cms-test/pull/1138
+[#1139]: https://github.com/anwarjaved/tina-cms-test/pull/1139
+[#1142]: https://github.com/anwarjaved/tina-cms-test/pull/1142
+[#1143]: https://github.com/anwarjaved/tina-cms-test/pull/1143
+[#1153]: https://github.com/anwarjaved/tina-cms-test/pull/1153
 
 [@agabrys]: https://github.com/agabrys
 [@codewithfan]: https://github.com/codewithfan
@@ -433,7 +433,7 @@ The roadmap to `v0.4.0` is small. We are only looking to:
 - fix one last bug relating to callouts and custom colors
 - fix any new bugs introduced by this pre-release
 
-Have any questions, thoughts, or concerns? We'd love to hear from you! Please [open an issue](https://github.com/just-the-docs/just-the-docs/issues) or [start a discussion](https://github.com/just-the-docs/just-the-docs/discussions) and let us know!
+Have any questions, thoughts, or concerns? We'd love to hear from you! Please [open an issue](https://github.com/anwarjaved/tina-cms-test/issues) or [start a discussion](https://github.com/anwarjaved/tina-cms-test/discussions) and let us know!
 
 ### Trying out pre-release `v0.4.0.rc4`
 
@@ -442,24 +442,24 @@ Simlar to the prior release, `v0.4.0.rc4` is a **release candidate** for the the
 To use this RC explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc4
+remote_theme: anwarjaved/tina-cms-test@v0.4.0.rc4
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.0.rc4"
+gem "tina-cms-test", "0.4.0.rc4"
 ```
 
 By default, **users will not be upgraded to `0.4.0.rc4`**. To enforce that explicitly, either:
 
 1. pin your gem version in your `Gemfile`, like so
 ```ruby
-gem "just-the-docs", "0.3.3"
+gem "tina-cms-test", "0.3.3"
 ```
 2. freeze the `remote_theme`, like so
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: anwarjaved/tina-cms-test@v0.3.3
 ```
 
 ### New Features
@@ -507,36 +507,36 @@ remote_theme: just-the-docs/just-the-docs@v0.3.3
 - [@SConaway] made their first contribution in [#1104]
 - [@captn3m0] made their first contribution in [#1110]
 
-**Full Changelog**: https://github.com/just-the-docs/just-the-docs/compare/v0.4.0.rc3...v0.4.0.rc4
+**Full Changelog**: https://github.com/anwarjaved/tina-cms-test/compare/v0.4.0.rc3...v0.4.0.rc4
 
-[#945]: https://github.com/just-the-docs/just-the-docs/pull/945
-[#999]: https://github.com/just-the-docs/just-the-docs/pull/999
-[#1000]: https://github.com/just-the-docs/just-the-docs/pull/1000
-[#1001]: https://github.com/just-the-docs/just-the-docs/pull/1001
-[#1010]: https://github.com/just-the-docs/just-the-docs/pull/1010
-[#1015]: https://github.com/just-the-docs/just-the-docs/pull/1015
-[#1018]: https://github.com/just-the-docs/just-the-docs/pull/1018
-[#1019]: https://github.com/just-the-docs/just-the-docs/pull/1019
-[#1021]: https://github.com/just-the-docs/just-the-docs/pull/1021
-[#1027]: https://github.com/just-the-docs/just-the-docs/pull/1027
-[#1029]: https://github.com/just-the-docs/just-the-docs/pull/1029
-[#1040]: https://github.com/just-the-docs/just-the-docs/pull/1040
-[#1058]: https://github.com/just-the-docs/just-the-docs/pull/1058
-[#1061]: https://github.com/just-the-docs/just-the-docs/pull/1061
-[#1065]: https://github.com/just-the-docs/just-the-docs/pull/1065
-[#1071]: https://github.com/just-the-docs/just-the-docs/pull/1071
-[#1074]: https://github.com/just-the-docs/just-the-docs/pull/1074
-[#1076]: https://github.com/just-the-docs/just-the-docs/pull/1076
-[#1077]: https://github.com/just-the-docs/just-the-docs/pull/1077
-[#1090]: https://github.com/just-the-docs/just-the-docs/pull/1090
-[#1091]: https://github.com/just-the-docs/just-the-docs/pull/1091
-[#1092]: https://github.com/just-the-docs/just-the-docs/pull/1092
-[#1095]: https://github.com/just-the-docs/just-the-docs/pull/1095
-[#1096]: https://github.com/just-the-docs/just-the-docs/pull/1096
-[#1102]: https://github.com/just-the-docs/just-the-docs/pull/1102
-[#1104]: https://github.com/just-the-docs/just-the-docs/pull/1104
-[#1110]: https://github.com/just-the-docs/just-the-docs/pull/1110
-[#1113]: https://github.com/just-the-docs/just-the-docs/pull/1113
+[#945]: https://github.com/anwarjaved/tina-cms-test/pull/945
+[#999]: https://github.com/anwarjaved/tina-cms-test/pull/999
+[#1000]: https://github.com/anwarjaved/tina-cms-test/pull/1000
+[#1001]: https://github.com/anwarjaved/tina-cms-test/pull/1001
+[#1010]: https://github.com/anwarjaved/tina-cms-test/pull/1010
+[#1015]: https://github.com/anwarjaved/tina-cms-test/pull/1015
+[#1018]: https://github.com/anwarjaved/tina-cms-test/pull/1018
+[#1019]: https://github.com/anwarjaved/tina-cms-test/pull/1019
+[#1021]: https://github.com/anwarjaved/tina-cms-test/pull/1021
+[#1027]: https://github.com/anwarjaved/tina-cms-test/pull/1027
+[#1029]: https://github.com/anwarjaved/tina-cms-test/pull/1029
+[#1040]: https://github.com/anwarjaved/tina-cms-test/pull/1040
+[#1058]: https://github.com/anwarjaved/tina-cms-test/pull/1058
+[#1061]: https://github.com/anwarjaved/tina-cms-test/pull/1061
+[#1065]: https://github.com/anwarjaved/tina-cms-test/pull/1065
+[#1071]: https://github.com/anwarjaved/tina-cms-test/pull/1071
+[#1074]: https://github.com/anwarjaved/tina-cms-test/pull/1074
+[#1076]: https://github.com/anwarjaved/tina-cms-test/pull/1076
+[#1077]: https://github.com/anwarjaved/tina-cms-test/pull/1077
+[#1090]: https://github.com/anwarjaved/tina-cms-test/pull/1090
+[#1091]: https://github.com/anwarjaved/tina-cms-test/pull/1091
+[#1092]: https://github.com/anwarjaved/tina-cms-test/pull/1092
+[#1095]: https://github.com/anwarjaved/tina-cms-test/pull/1095
+[#1096]: https://github.com/anwarjaved/tina-cms-test/pull/1096
+[#1102]: https://github.com/anwarjaved/tina-cms-test/pull/1102
+[#1104]: https://github.com/anwarjaved/tina-cms-test/pull/1104
+[#1110]: https://github.com/anwarjaved/tina-cms-test/pull/1110
+[#1113]: https://github.com/anwarjaved/tina-cms-test/pull/1113
 
 [@captn3m0]: https://github.com/captn3m0
 [@deseo]: https://github.com/deseo
@@ -552,7 +552,7 @@ Hi there! This is (actually) hopefully the last prerelease before `v0.4.0`; in p
 
 In general, this is a more mature pre-release; there are few new features. However, we'll highlight [@pdmosses]'s work in [#992] to better optimize nav generation for large sites (ex 100+ pages). We don't expect this to affect most users; however, **it is technically a breaking change**, and we suggest testing your site before upgrading to this prerelease.
 
-We want your feedback! Please [open an issue](https://github.com/just-the-docs/just-the-docs/issues) or [start a discussion](https://github.com/just-the-docs/just-the-docs/discussions) and let us know!
+We want your feedback! Please [open an issue](https://github.com/anwarjaved/tina-cms-test/issues) or [start a discussion](https://github.com/anwarjaved/tina-cms-test/discussions) and let us know!
 
 As soon as we get stable test results from major downstream users, we'll push out a `v0.4.0` ASAP - closing out almost 2 years of backlogged work!
 
@@ -563,24 +563,24 @@ Simlar to the prior release, `v0.4.0.rc3` is a **release candidate** for the the
 To use this RC explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+remote_theme: anwarjaved/tina-cms-test@v0.4.0.rc3
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.0.rc3"
+gem "tina-cms-test", "0.4.0.rc3"
 ```
 
 By default, **users will not be upgraded to `0.4.0.rc3`**. To enforce that explicitly, either:
 
 1. pin your gem version in your `Gemfile`, like so
 ```ruby
-gem "just-the-docs", "0.3.3"
+gem "tina-cms-test", "0.3.3"
 ```
 2. freeze the `remote_theme`, like so
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: anwarjaved/tina-cms-test@v0.3.3
 ```
 
 ### Features
@@ -603,20 +603,20 @@ Broadly, this prerelease is feature-light!
 - Fixed: docs, narrow styling for code highlighting with line numbers by [@pdmosses] in [#974]
 - Fixed: default syntax highlighting in custom color schemes [@pdmosses] in [#986]
 
-[#965]: https://github.com/just-the-docs/just-the-docs/pull/965
-[#960]: https://github.com/just-the-docs/just-the-docs/pull/960
-[#962]: https://github.com/just-the-docs/just-the-docs/pull/962
-[#964]: https://github.com/just-the-docs/just-the-docs/pull/964
-[#967]: https://github.com/just-the-docs/just-the-docs/pull/967
-[#974]: https://github.com/just-the-docs/just-the-docs/pull/974
-[#980]: https://github.com/just-the-docs/just-the-docs/pull/980
-[#985]: https://github.com/just-the-docs/just-the-docs/pull/985
-[#986]: https://github.com/just-the-docs/just-the-docs/pull/986
-[#992]: https://github.com/just-the-docs/just-the-docs/pull/992
+[#965]: https://github.com/anwarjaved/tina-cms-test/pull/965
+[#960]: https://github.com/anwarjaved/tina-cms-test/pull/960
+[#962]: https://github.com/anwarjaved/tina-cms-test/pull/962
+[#964]: https://github.com/anwarjaved/tina-cms-test/pull/964
+[#967]: https://github.com/anwarjaved/tina-cms-test/pull/967
+[#974]: https://github.com/anwarjaved/tina-cms-test/pull/974
+[#980]: https://github.com/anwarjaved/tina-cms-test/pull/980
+[#985]: https://github.com/anwarjaved/tina-cms-test/pull/985
+[#986]: https://github.com/anwarjaved/tina-cms-test/pull/986
+[#992]: https://github.com/anwarjaved/tina-cms-test/pull/992
 
 [@henryiii]: https://github.com/henryiii
 
-**Full Changelog**: https://github.com/just-the-docs/just-the-docs/compare/v0.4.0.rc2...v0.4.0.rc3
+**Full Changelog**: https://github.com/anwarjaved/tina-cms-test/compare/v0.4.0.rc2...v0.4.0.rc3
 
 ## Pre-release v0.4.0.rc2
 
@@ -639,24 +639,24 @@ Simlar to the prior release, `v0.4.0.rc2` is a **release candidate** for the the
 To use this RC explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
+remote_theme: anwarjaved/tina-cms-test@v0.4.0.rc2
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.0.rc2"
+gem "tina-cms-test", "0.4.0.rc2"
 ```
 
 By default, **users will not be upgraded to `0.4.0.rc2`**. To enforce that explicitly, either:
 
 1. pin your gem version in your `Gemfile`, like so
 ```ruby
-gem "just-the-docs", "0.3.3"
+gem "tina-cms-test", "0.3.3"
 ```
 2. freeze the `remote_theme`, like so
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: anwarjaved/tina-cms-test@v0.3.3
 ```
 
 ### Features
@@ -668,12 +668,12 @@ remote_theme: just-the-docs/just-the-docs@v0.3.3
 - Fixed: exclude `vendor/` in Jekyll config by [@manuelhenke] in [#941]
 - Fixed: improve build time of navigation panel by [@pdmosses] in [#956]
 
-[#950]: https://github.com/just-the-docs/just-the-docs/pull/950
-[#944]: https://github.com/just-the-docs/just-the-docs/pull/944
-[#939]: https://github.com/just-the-docs/just-the-docs/pull/939
-[#949]: https://github.com/just-the-docs/just-the-docs/pull/949
-[#941]: https://github.com/just-the-docs/just-the-docs/pull/941
-[#956]: https://github.com/just-the-docs/just-the-docs/pull/956
+[#950]: https://github.com/anwarjaved/tina-cms-test/pull/950
+[#944]: https://github.com/anwarjaved/tina-cms-test/pull/944
+[#939]: https://github.com/anwarjaved/tina-cms-test/pull/939
+[#949]: https://github.com/anwarjaved/tina-cms-test/pull/949
+[#941]: https://github.com/anwarjaved/tina-cms-test/pull/941
+[#956]: https://github.com/anwarjaved/tina-cms-test/pull/956
 
 [@alyssais]: https://github.com/alyssais
 
@@ -685,11 +685,11 @@ remote_theme: just-the-docs/just-the-docs@v0.3.3
 - Fixed: clarify version docs by [@pdmosses] in [#955]
 - Deleted: unused script directory by [@mattxwang] in [#937]
 
-[#935]: https://github.com/just-the-docs/just-the-docs/pull/935
-[#940]: https://github.com/just-the-docs/just-the-docs/pull/940
-[#951]: https://github.com/just-the-docs/just-the-docs/pull/951
-[#955]: https://github.com/just-the-docs/just-the-docs/pull/955
-[#937]: https://github.com/just-the-docs/just-the-docs/pull/937
+[#935]: https://github.com/anwarjaved/tina-cms-test/pull/935
+[#940]: https://github.com/anwarjaved/tina-cms-test/pull/940
+[#951]: https://github.com/anwarjaved/tina-cms-test/pull/951
+[#955]: https://github.com/anwarjaved/tina-cms-test/pull/955
+[#937]: https://github.com/anwarjaved/tina-cms-test/pull/937
 
 ### New Contributors
 
@@ -716,9 +716,9 @@ Hi all! The Just the Docs team is excited to have our first pre-release in over 
 - Over 20 bugfixes! Big ones include fixing the `rake` command, using `relative_url`, and search input color
 - More documentation, especially on using custom includes
 - Updating core dependencies to stable Ruby versions
-- A WIP [template repository](https://github.com/just-the-docs/just-the-docs-template) that allows you to setup your own repository using Just the Docs and GitHub Pages with one click - give it a shot! More documentation, etc. is on the way!
+- A WIP [template repository](https://github.com/anwarjaved/tina-cms-test-template) that allows you to setup your own repository using Just the Docs and GitHub Pages with one click - give it a shot! More documentation, etc. is on the way!
 
-We want your feedback! Are these changes helpful? Are our docs easy to understand? Should new features like `mermaid` be opt-in or opt-out? Please [open an issue](https://github.com/just-the-docs/just-the-docs/issues) or [start a discussion](https://github.com/just-the-docs/just-the-docs/discussions) and let us know!
+We want your feedback! Are these changes helpful? Are our docs easy to understand? Should new features like `mermaid` be opt-in or opt-out? Please [open an issue](https://github.com/anwarjaved/tina-cms-test/issues) or [start a discussion](https://github.com/anwarjaved/tina-cms-test/discussions) and let us know!
 
 ### Trying out pre-release `v0.4.0.rc1`
 
@@ -727,28 +727,28 @@ Due to the massive scope of these changes, we're making `v0.4.0.rc1` avaialble a
 To use this RC explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
+remote_theme: anwarjaved/tina-cms-test@v0.4.0.rc1
 ```
 
-To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
+To use this RC explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update tina-cms-test`:
 
 ```ruby
-gem "just-the-docs", "0.4.0.rc1"
+gem "tina-cms-test", "0.4.0.rc1"
 ```
 
 ### Staying on `v0.3.3`
 
-If you're not ready to make the switch, that's alright! If your version of just-the-docs is pinned to `v0.3.3` (i.e. by a `Gemfile.lock` or in `remote_theme`, then there's nothing you need to do.
+If you're not ready to make the switch, that's alright! If your version of tina-cms-test is pinned to `v0.3.3` (i.e. by a `Gemfile.lock` or in `remote_theme`, then there's nothing you need to do.
 
 If you have not pinned your theme version, you should either:
 
 1. pin your gem version in your `Gemfile`, like so
 ```ruby
-gem "just-the-docs", "0.3.3"
+gem "tina-cms-test", "0.3.3"
 ```
 2. freeze the `remote_theme`, like so
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: anwarjaved/tina-cms-test@v0.3.3
 ```
 
 {: .warning }
@@ -779,14 +779,14 @@ We're also scoping out medium and long-term projects, and want to keep you in th
 - recursive/multi-level navigation - PR [#462]
 - toggleable dark mode - issue [#234]
 
-as well as DX improvements like better regression tests, CI, and tooling. If you're interested in any of these, please join us [on GitHub](https://github.com/just-the-docs/just-the-docs) - any contribution (raising an issue, writing docs, or submitting a PR) is welcome!
+as well as DX improvements like better regression tests, CI, and tooling. If you're interested in any of these, please join us [on GitHub](https://github.com/anwarjaved/tina-cms-test) - any contribution (raising an issue, writing docs, or submitting a PR) is welcome!
 
-[#728]: https://github.com/just-the-docs/just-the-docs/issues/728
-[#566]: https://github.com/just-the-docs/just-the-docs/issues/566
-[#870]: https://github.com/just-the-docs/just-the-docs/issues/870
-[#59]: https://github.com/just-the-docs/just-the-docs/issues/59
-[#462]: https://github.com/just-the-docs/just-the-docs/pull/462
-[#234]: https://github.com/just-the-docs/just-the-docs/issues/234
+[#728]: https://github.com/anwarjaved/tina-cms-test/issues/728
+[#566]: https://github.com/anwarjaved/tina-cms-test/issues/566
+[#870]: https://github.com/anwarjaved/tina-cms-test/issues/870
+[#59]: https://github.com/anwarjaved/tina-cms-test/issues/59
+[#462]: https://github.com/anwarjaved/tina-cms-test/pull/462
+[#234]: https://github.com/anwarjaved/tina-cms-test/issues/234
 
 ### Features
 
@@ -824,36 +824,36 @@ as well as DX improvements like better regression tests, CI, and tooling. If you
 * Fixed: allow links to wrap by [@pdmosses] in [#905]
 * Fixed: nav scroll feature and absolute/relative URLs by [@pdmosses] in [#898]
 
-[#578]: https://github.com/just-the-docs/just-the-docs/pull/578
-[#463]: https://github.com/just-the-docs/just-the-docs/pull/463
-[#448]: https://github.com/just-the-docs/just-the-docs/pull/448
-[#466]: https://github.com/just-the-docs/just-the-docs/pull/466
-[#477]: https://github.com/just-the-docs/just-the-docs/pull/477
-[#495]: https://github.com/just-the-docs/just-the-docs/pull/495
-[#496]: https://github.com/just-the-docs/just-the-docs/pull/496
-[#498]: https://github.com/just-the-docs/just-the-docs/pull/498
-[#494]: https://github.com/just-the-docs/just-the-docs/pull/494
-[#639]: https://github.com/just-the-docs/just-the-docs/pull/639
-[#544]: https://github.com/just-the-docs/just-the-docs/pull/544
-[#364]: https://github.com/just-the-docs/just-the-docs/pull/364
-[#498]: https://github.com/just-the-docs/just-the-docs/pull/498
-[#613]: https://github.com/just-the-docs/just-the-docs/pull/613
-[#726]: https://github.com/just-the-docs/just-the-docs/pull/726
-[#474]: https://github.com/just-the-docs/just-the-docs/pull/474
-[#829]: https://github.com/just-the-docs/just-the-docs/pull/829
-[#857]: https://github.com/just-the-docs/just-the-docs/pull/857
-[#876]: https://github.com/just-the-docs/just-the-docs/pull/876
-[#909]: https://github.com/just-the-docs/just-the-docs/pull/909
-[#519]: https://github.com/just-the-docs/just-the-docs/pull/519
-[#855]: https://github.com/just-the-docs/just-the-docs/pull/855
-[#686]: https://github.com/just-the-docs/just-the-docs/pull/686
-[#495]: https://github.com/just-the-docs/just-the-docs/pull/495
-[#846]: https://github.com/just-the-docs/just-the-docs/pull/846
-[#727]: https://github.com/just-the-docs/just-the-docs/pull/727
-[#889]: https://github.com/just-the-docs/just-the-docs/pull/889
-[#893]: https://github.com/just-the-docs/just-the-docs/pull/893
-[#905]: https://github.com/just-the-docs/just-the-docs/pull/905
-[#898]: https://github.com/just-the-docs/just-the-docs/pull/898
+[#578]: https://github.com/anwarjaved/tina-cms-test/pull/578
+[#463]: https://github.com/anwarjaved/tina-cms-test/pull/463
+[#448]: https://github.com/anwarjaved/tina-cms-test/pull/448
+[#466]: https://github.com/anwarjaved/tina-cms-test/pull/466
+[#477]: https://github.com/anwarjaved/tina-cms-test/pull/477
+[#495]: https://github.com/anwarjaved/tina-cms-test/pull/495
+[#496]: https://github.com/anwarjaved/tina-cms-test/pull/496
+[#498]: https://github.com/anwarjaved/tina-cms-test/pull/498
+[#494]: https://github.com/anwarjaved/tina-cms-test/pull/494
+[#639]: https://github.com/anwarjaved/tina-cms-test/pull/639
+[#544]: https://github.com/anwarjaved/tina-cms-test/pull/544
+[#364]: https://github.com/anwarjaved/tina-cms-test/pull/364
+[#498]: https://github.com/anwarjaved/tina-cms-test/pull/498
+[#613]: https://github.com/anwarjaved/tina-cms-test/pull/613
+[#726]: https://github.com/anwarjaved/tina-cms-test/pull/726
+[#474]: https://github.com/anwarjaved/tina-cms-test/pull/474
+[#829]: https://github.com/anwarjaved/tina-cms-test/pull/829
+[#857]: https://github.com/anwarjaved/tina-cms-test/pull/857
+[#876]: https://github.com/anwarjaved/tina-cms-test/pull/876
+[#909]: https://github.com/anwarjaved/tina-cms-test/pull/909
+[#519]: https://github.com/anwarjaved/tina-cms-test/pull/519
+[#855]: https://github.com/anwarjaved/tina-cms-test/pull/855
+[#686]: https://github.com/anwarjaved/tina-cms-test/pull/686
+[#495]: https://github.com/anwarjaved/tina-cms-test/pull/495
+[#846]: https://github.com/anwarjaved/tina-cms-test/pull/846
+[#727]: https://github.com/anwarjaved/tina-cms-test/pull/727
+[#889]: https://github.com/anwarjaved/tina-cms-test/pull/889
+[#893]: https://github.com/anwarjaved/tina-cms-test/pull/893
+[#905]: https://github.com/anwarjaved/tina-cms-test/pull/905
+[#898]: https://github.com/anwarjaved/tina-cms-test/pull/898
 
 ### Documentation
 
@@ -872,20 +872,20 @@ as well as DX improvements like better regression tests, CI, and tooling. If you
 * Fixed: typo in `README` on `_config.yml` by [@ivanskodje] in [#891]
 * Fixed: missing code fence in navigation structure docs by [@mattxwang] in [#906]
 
-[#856]: https://github.com/just-the-docs/just-the-docs/pull/856
-[#806]: https://github.com/just-the-docs/just-the-docs/pull/806
-[#555]: https://github.com/just-the-docs/just-the-docs/pull/555
-[#814]: https://github.com/just-the-docs/just-the-docs/pull/814
-[#778]: https://github.com/just-the-docs/just-the-docs/pull/778
-[#221]: https://github.com/just-the-docs/just-the-docs/pull/221
-[#782]: https://github.com/just-the-docs/just-the-docs/pull/782
-[#549]: https://github.com/just-the-docs/just-the-docs/pull/549
-[#554]: https://github.com/just-the-docs/just-the-docs/pull/554
-[#499]: https://github.com/just-the-docs/just-the-docs/pull/499
-[#473]: https://github.com/just-the-docs/just-the-docs/pull/473
-[#835]: https://github.com/just-the-docs/just-the-docs/pull/835
-[#891]: https://github.com/just-the-docs/just-the-docs/pull/891
-[#906]: https://github.com/just-the-docs/just-the-docs/pull/906
+[#856]: https://github.com/anwarjaved/tina-cms-test/pull/856
+[#806]: https://github.com/anwarjaved/tina-cms-test/pull/806
+[#555]: https://github.com/anwarjaved/tina-cms-test/pull/555
+[#814]: https://github.com/anwarjaved/tina-cms-test/pull/814
+[#778]: https://github.com/anwarjaved/tina-cms-test/pull/778
+[#221]: https://github.com/anwarjaved/tina-cms-test/pull/221
+[#782]: https://github.com/anwarjaved/tina-cms-test/pull/782
+[#549]: https://github.com/anwarjaved/tina-cms-test/pull/549
+[#554]: https://github.com/anwarjaved/tina-cms-test/pull/554
+[#499]: https://github.com/anwarjaved/tina-cms-test/pull/499
+[#473]: https://github.com/anwarjaved/tina-cms-test/pull/473
+[#835]: https://github.com/anwarjaved/tina-cms-test/pull/835
+[#891]: https://github.com/anwarjaved/tina-cms-test/pull/891
+[#906]: https://github.com/anwarjaved/tina-cms-test/pull/906
 
 ### Maintenance
 
@@ -899,15 +899,15 @@ as well as DX improvements like better regression tests, CI, and tooling. If you
 * Updated: CI files, Ruby & Node Versions by [@mattxwang] in [#820]
 * Updated: Stylelint to v14, extend SCSS plugins, remove primer-* configs, resolve issues by [@mattxwang] in [#821]
 
-[#783]: https://github.com/just-the-docs/just-the-docs/pull/783
-[#799]: https://github.com/just-the-docs/just-the-docs/pull/799
-[#797]: https://github.com/just-the-docs/just-the-docs/pull/797
-[#775]: https://github.com/just-the-docs/just-the-docs/pull/775
-[#776]: https://github.com/just-the-docs/just-the-docs/pull/776
-[#777]: https://github.com/just-the-docs/just-the-docs/pull/777
-[#790]: https://github.com/just-the-docs/just-the-docs/pull/790
-[#820]: https://github.com/just-the-docs/just-the-docs/pull/820
-[#821]: https://github.com/just-the-docs/just-the-docs/pull/821
+[#783]: https://github.com/anwarjaved/tina-cms-test/pull/783
+[#799]: https://github.com/anwarjaved/tina-cms-test/pull/799
+[#797]: https://github.com/anwarjaved/tina-cms-test/pull/797
+[#775]: https://github.com/anwarjaved/tina-cms-test/pull/775
+[#776]: https://github.com/anwarjaved/tina-cms-test/pull/776
+[#777]: https://github.com/anwarjaved/tina-cms-test/pull/777
+[#790]: https://github.com/anwarjaved/tina-cms-test/pull/790
+[#820]: https://github.com/anwarjaved/tina-cms-test/pull/820
+[#821]: https://github.com/anwarjaved/tina-cms-test/pull/821
 
 ### Dependencies
 
@@ -922,16 +922,16 @@ as well as DX improvements like better regression tests, CI, and tooling. If you
 * Bump prettier from 2.5.1 to 2.6.2 by @dependabot in [#809]
 * Bump prettier from 2.6.2 to 2.7.1 by @dependabot in [#864]
 
-[#627]: https://github.com/just-the-docs/just-the-docs/pull/627
-[#606]: https://github.com/just-the-docs/just-the-docs/pull/606
-[#641]: https://github.com/just-the-docs/just-the-docs/pull/641
-[#640]: https://github.com/just-the-docs/just-the-docs/pull/640
-[#511]: https://github.com/just-the-docs/just-the-docs/pull/511
-[#699]: https://github.com/just-the-docs/just-the-docs/pull/699
-[#766]: https://github.com/just-the-docs/just-the-docs/pull/766
-[#787]: https://github.com/just-the-docs/just-the-docs/pull/787
-[#809]: https://github.com/just-the-docs/just-the-docs/pull/809
-[#864]: https://github.com/just-the-docs/just-the-docs/pull/864
+[#627]: https://github.com/anwarjaved/tina-cms-test/pull/627
+[#606]: https://github.com/anwarjaved/tina-cms-test/pull/606
+[#641]: https://github.com/anwarjaved/tina-cms-test/pull/641
+[#640]: https://github.com/anwarjaved/tina-cms-test/pull/640
+[#511]: https://github.com/anwarjaved/tina-cms-test/pull/511
+[#699]: https://github.com/anwarjaved/tina-cms-test/pull/699
+[#766]: https://github.com/anwarjaved/tina-cms-test/pull/766
+[#787]: https://github.com/anwarjaved/tina-cms-test/pull/787
+[#809]: https://github.com/anwarjaved/tina-cms-test/pull/809
+[#864]: https://github.com/anwarjaved/tina-cms-test/pull/864
 
 ### New Contributors
 
@@ -979,7 +979,7 @@ as well as DX improvements like better regression tests, CI, and tooling. If you
 [@ivanskodje]: https://github.com/ivanskodje
 [@Eisverygoodletter]: https://github.com/Eisverygoodletter
 
-**Full Changelog**: https://github.com/just-the-docs/just-the-docs/compare/v0.3.3...v0.4.0.rc1
+**Full Changelog**: https://github.com/anwarjaved/tina-cms-test/compare/v0.3.3...v0.4.0.rc1
 
 [@pmarsceill]: https://github.com/pmarsceill
 
@@ -1080,7 +1080,7 @@ as well as DX improvements like better regression tests, CI, and tooling. If you
 - Fix duplicated title and description tags #294 @iefserge
 - Update nav.html for handling nav_exclude #282 @blawqchain
 - Fix duplicate entries in nav.html and default.html #239 @KasparEtter
-- Don't show pages with no title (e.g. redirects in nav) https://github.com/pmarsceill/just-the-docs/pull/295/commits/672de29f2e332a9350af7237e4fb6693c848989e @SgtSilvio
+- Don't show pages with no title (e.g. redirects in nav) https://github.com/pmarsceill/tina-cms-test/pull/295/commits/672de29f2e332a9350af7237e4fb6693c848989e @SgtSilvio
 - [SEARCH RAKE] Fix search generator #319 @RoiArthurB
 
 ### Enhancements

@@ -6,7 +6,7 @@ layout: default
 # Migrating and Upgrading
 
 Summary
-:   A site that uses `just-the-docs` (as a theme or as a remote them) automatically
+:   A site that uses `tina-cms-test` (as a theme or as a remote them) automatically
     switches to a new release, unless it is pinned to a previous version.
 
     This migration guide draws attention to:
@@ -29,12 +29,12 @@ This document contains instructions on how to migrate and upgrade Just the Docs 
 {::options toc_levels="2..4" /}
 
 {: .warning }
-> If your configuration states `remote_theme: just-the-docs/just-the-docs`, your
+> If your configuration states `remote_theme: anwarjaved/tina-cms-test`, your
 > website is built using the current `main` branch of the theme, which may include
 > changes made after the latest release; see the [CHANGELOG].
 >
 > If your configuration states `theme: just the docs` and your `Gemfile` specifies
-> `gem "just-the-docs"`, your website is always built using the latest release.
+> `gem "tina-cms-test"`, your website is always built using the latest release.
 
 {: .note }
 > If you have cloned/forked and customised the theme repo,
@@ -49,23 +49,23 @@ This document contains instructions on how to migrate and upgrade Just the Docs 
 
 #### Just the Docs
 
-The theme repo is now at <https://github.com/just-the-docs/just-the-docs>.
+The theme repo is now at <https://github.com/anwarjaved/tina-cms-test>.
 The name of its default branch is now `main`.
 
-The theme docs website is now published at <https://just-the-docs.github.io/just-the-docs>.
+The theme docs website is now published at <https://anwarjaved.github.io/tina-cms-test/>.
 
 GitHub provides access to previous versions of the theme repo.
 You can browse [previous versions of the theme docs website] on the [Internet Archive].
 
-[previous versions of the theme docs website]: https://web.archive.org/web/20220000000000*/https://just-the-docs.github.io/just-the-docs
+[previous versions of the theme docs website]: https://web.archive.org/web/20220000000000*/https://anwarjaved.github.io/tina-cms-test/
 [Internet Archive]: https://web.archive.org/
 
 The [README] page on the theme repo repeats much of the information from the [home page],
 formatted for browsing on GitHub.
 It also explains how to install the theme as a Ruby Gem, without creating a new site.
 
-[README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
-[home page]: https://just-the-docs.github.io/just-the-docs
+[README]: https://github.com/anwarjaved/tina-cms-test/blob/main/README.md
+[home page]: https://anwarjaved.github.io/tina-cms-test/
 
 #### Deploy previews
 
@@ -74,23 +74,23 @@ You can find links to the preview near the bottom of the Conversation tab of the
 
 #### Just the Docs Template
 
-The template at <https://github.com/just-the-docs/just-the-docs-template>
+The template at <https://github.com/anwarjaved/tina-cms-test-template>
 creates a repo with the minimal source files for a Just the Docs website.
 After configuring the relevant parameters, you can build and serve the website
 both locally and on GitHub Pages – using either Jekyll 3 or Jekyll 4!
 
 #### Just the Docs Tests
 
-The tests website at <https://just-the-docs.github.io/just-the-docs-tests>
+The tests website at <https://anwarjaved.github.io/tina-cms-test/-tests>
 consists mainly of regression tests for bug fixes and new features.
 
-The test source files at <https://github.com/just-the-docs/just-the-docs-tests>
+The test source files at <https://github.com/anwarjaved/tina-cms-test-tests>
 illustrate the use of many Markdown and Jekyll features,
 including some that are not included in the theme docs.
 
 For example, see how to add support for rendering TeX/LaTeX [math formulas] with KaTeX and MathJax.
 
-[math formulas]: https://just-the-docs.github.io/just-the-docs-tests/components/math/index/
+[math formulas]: https://anwarjaved.github.io/tina-cms-test/-tests/components/math/index/
 
 ### POTENTIALLY-BREAKING CHANGES in v0.4.0
 
@@ -306,97 +306,97 @@ In addition to customizing the search placeholder, we've also added the ability 
 
 ----
 
-[#856]: https://github.com/just-the-docs/just-the-docs/pull/856
-[#806]: https://github.com/just-the-docs/just-the-docs/pull/806
-[#555]: https://github.com/just-the-docs/just-the-docs/pull/555
-[#814]: https://github.com/just-the-docs/just-the-docs/pull/814
-[#778]: https://github.com/just-the-docs/just-the-docs/pull/778
-[#221]: https://github.com/just-the-docs/just-the-docs/pull/221
-[#782]: https://github.com/just-the-docs/just-the-docs/pull/782
-[#549]: https://github.com/just-the-docs/just-the-docs/pull/549
-[#554]: https://github.com/just-the-docs/just-the-docs/pull/554
-[#499]: https://github.com/just-the-docs/just-the-docs/pull/499
-[#473]: https://github.com/just-the-docs/just-the-docs/pull/473
-[#835]: https://github.com/just-the-docs/just-the-docs/pull/835
-[#891]: https://github.com/just-the-docs/just-the-docs/pull/891
-[#906]: https://github.com/just-the-docs/just-the-docs/pull/906
+[#856]: https://github.com/anwarjaved/tina-cms-test/pull/856
+[#806]: https://github.com/anwarjaved/tina-cms-test/pull/806
+[#555]: https://github.com/anwarjaved/tina-cms-test/pull/555
+[#814]: https://github.com/anwarjaved/tina-cms-test/pull/814
+[#778]: https://github.com/anwarjaved/tina-cms-test/pull/778
+[#221]: https://github.com/anwarjaved/tina-cms-test/pull/221
+[#782]: https://github.com/anwarjaved/tina-cms-test/pull/782
+[#549]: https://github.com/anwarjaved/tina-cms-test/pull/549
+[#554]: https://github.com/anwarjaved/tina-cms-test/pull/554
+[#499]: https://github.com/anwarjaved/tina-cms-test/pull/499
+[#473]: https://github.com/anwarjaved/tina-cms-test/pull/473
+[#835]: https://github.com/anwarjaved/tina-cms-test/pull/835
+[#891]: https://github.com/anwarjaved/tina-cms-test/pull/891
+[#906]: https://github.com/anwarjaved/tina-cms-test/pull/906
 
-[#578]: https://github.com/just-the-docs/just-the-docs/pull/578
-[#463]: https://github.com/just-the-docs/just-the-docs/pull/463
-[#448]: https://github.com/just-the-docs/just-the-docs/pull/448
-[#466]: https://github.com/just-the-docs/just-the-docs/pull/466
-[#477]: https://github.com/just-the-docs/just-the-docs/pull/477
-[#495]: https://github.com/just-the-docs/just-the-docs/pull/495
-[#496]: https://github.com/just-the-docs/just-the-docs/pull/496
-[#498]: https://github.com/just-the-docs/just-the-docs/pull/498
-[#494]: https://github.com/just-the-docs/just-the-docs/pull/494
-[#639]: https://github.com/just-the-docs/just-the-docs/pull/639
-[#544]: https://github.com/just-the-docs/just-the-docs/pull/544
-[#364]: https://github.com/just-the-docs/just-the-docs/pull/364
-[#498]: https://github.com/just-the-docs/just-the-docs/pull/498
-[#613]: https://github.com/just-the-docs/just-the-docs/pull/613
-[#726]: https://github.com/just-the-docs/just-the-docs/pull/726
-[#474]: https://github.com/just-the-docs/just-the-docs/pull/474
-[#829]: https://github.com/just-the-docs/just-the-docs/pull/829
-[#857]: https://github.com/just-the-docs/just-the-docs/pull/857
-[#876]: https://github.com/just-the-docs/just-the-docs/pull/876
-[#909]: https://github.com/just-the-docs/just-the-docs/pull/909
-[#519]: https://github.com/just-the-docs/just-the-docs/pull/519
-[#855]: https://github.com/just-the-docs/just-the-docs/pull/855
-[#686]: https://github.com/just-the-docs/just-the-docs/pull/686
-[#495]: https://github.com/just-the-docs/just-the-docs/pull/495
-[#846]: https://github.com/just-the-docs/just-the-docs/pull/846
-[#727]: https://github.com/just-the-docs/just-the-docs/pull/727
-[#889]: https://github.com/just-the-docs/just-the-docs/pull/889
-[#893]: https://github.com/just-the-docs/just-the-docs/pull/893
-[#905]: https://github.com/just-the-docs/just-the-docs/pull/905
-[#898]: https://github.com/just-the-docs/just-the-docs/pull/898
+[#578]: https://github.com/anwarjaved/tina-cms-test/pull/578
+[#463]: https://github.com/anwarjaved/tina-cms-test/pull/463
+[#448]: https://github.com/anwarjaved/tina-cms-test/pull/448
+[#466]: https://github.com/anwarjaved/tina-cms-test/pull/466
+[#477]: https://github.com/anwarjaved/tina-cms-test/pull/477
+[#495]: https://github.com/anwarjaved/tina-cms-test/pull/495
+[#496]: https://github.com/anwarjaved/tina-cms-test/pull/496
+[#498]: https://github.com/anwarjaved/tina-cms-test/pull/498
+[#494]: https://github.com/anwarjaved/tina-cms-test/pull/494
+[#639]: https://github.com/anwarjaved/tina-cms-test/pull/639
+[#544]: https://github.com/anwarjaved/tina-cms-test/pull/544
+[#364]: https://github.com/anwarjaved/tina-cms-test/pull/364
+[#498]: https://github.com/anwarjaved/tina-cms-test/pull/498
+[#613]: https://github.com/anwarjaved/tina-cms-test/pull/613
+[#726]: https://github.com/anwarjaved/tina-cms-test/pull/726
+[#474]: https://github.com/anwarjaved/tina-cms-test/pull/474
+[#829]: https://github.com/anwarjaved/tina-cms-test/pull/829
+[#857]: https://github.com/anwarjaved/tina-cms-test/pull/857
+[#876]: https://github.com/anwarjaved/tina-cms-test/pull/876
+[#909]: https://github.com/anwarjaved/tina-cms-test/pull/909
+[#519]: https://github.com/anwarjaved/tina-cms-test/pull/519
+[#855]: https://github.com/anwarjaved/tina-cms-test/pull/855
+[#686]: https://github.com/anwarjaved/tina-cms-test/pull/686
+[#495]: https://github.com/anwarjaved/tina-cms-test/pull/495
+[#846]: https://github.com/anwarjaved/tina-cms-test/pull/846
+[#727]: https://github.com/anwarjaved/tina-cms-test/pull/727
+[#889]: https://github.com/anwarjaved/tina-cms-test/pull/889
+[#893]: https://github.com/anwarjaved/tina-cms-test/pull/893
+[#905]: https://github.com/anwarjaved/tina-cms-test/pull/905
+[#898]: https://github.com/anwarjaved/tina-cms-test/pull/898
 
-[#950]: https://github.com/just-the-docs/just-the-docs/pull/950
-[#944]: https://github.com/just-the-docs/just-the-docs/pull/944
-[#939]: https://github.com/just-the-docs/just-the-docs/pull/939
-[#949]: https://github.com/just-the-docs/just-the-docs/pull/949
-[#941]: https://github.com/just-the-docs/just-the-docs/pull/941
-[#956]: https://github.com/just-the-docs/just-the-docs/pull/956
-[#935]: https://github.com/just-the-docs/just-the-docs/pull/935
-[#940]: https://github.com/just-the-docs/just-the-docs/pull/940
-[#951]: https://github.com/just-the-docs/just-the-docs/pull/951
-[#955]: https://github.com/just-the-docs/just-the-docs/pull/955
-[#937]: https://github.com/just-the-docs/just-the-docs/pull/937
+[#950]: https://github.com/anwarjaved/tina-cms-test/pull/950
+[#944]: https://github.com/anwarjaved/tina-cms-test/pull/944
+[#939]: https://github.com/anwarjaved/tina-cms-test/pull/939
+[#949]: https://github.com/anwarjaved/tina-cms-test/pull/949
+[#941]: https://github.com/anwarjaved/tina-cms-test/pull/941
+[#956]: https://github.com/anwarjaved/tina-cms-test/pull/956
+[#935]: https://github.com/anwarjaved/tina-cms-test/pull/935
+[#940]: https://github.com/anwarjaved/tina-cms-test/pull/940
+[#951]: https://github.com/anwarjaved/tina-cms-test/pull/951
+[#955]: https://github.com/anwarjaved/tina-cms-test/pull/955
+[#937]: https://github.com/anwarjaved/tina-cms-test/pull/937
 
-[#965]: https://github.com/just-the-docs/just-the-docs/pull/965
-[#960]: https://github.com/just-the-docs/just-the-docs/pull/960
-[#962]: https://github.com/just-the-docs/just-the-docs/pull/962
-[#964]: https://github.com/just-the-docs/just-the-docs/pull/964
-[#967]: https://github.com/just-the-docs/just-the-docs/pull/967
-[#974]: https://github.com/just-the-docs/just-the-docs/pull/974
-[#980]: https://github.com/just-the-docs/just-the-docs/pull/980
-[#985]: https://github.com/just-the-docs/just-the-docs/pull/985
-[#986]: https://github.com/just-the-docs/just-the-docs/pull/986
-[#992]: https://github.com/just-the-docs/just-the-docs/pull/992
+[#965]: https://github.com/anwarjaved/tina-cms-test/pull/965
+[#960]: https://github.com/anwarjaved/tina-cms-test/pull/960
+[#962]: https://github.com/anwarjaved/tina-cms-test/pull/962
+[#964]: https://github.com/anwarjaved/tina-cms-test/pull/964
+[#967]: https://github.com/anwarjaved/tina-cms-test/pull/967
+[#974]: https://github.com/anwarjaved/tina-cms-test/pull/974
+[#980]: https://github.com/anwarjaved/tina-cms-test/pull/980
+[#985]: https://github.com/anwarjaved/tina-cms-test/pull/985
+[#986]: https://github.com/anwarjaved/tina-cms-test/pull/986
+[#992]: https://github.com/anwarjaved/tina-cms-test/pull/992
 
-[#945]: https://github.com/just-the-docs/just-the-docs/pull/945
-[#999]: https://github.com/just-the-docs/just-the-docs/pull/999
-[#1000]: https://github.com/just-the-docs/just-the-docs/pull/1000
-[#1001]: https://github.com/just-the-docs/just-the-docs/pull/1001
-[#1010]: https://github.com/just-the-docs/just-the-docs/pull/1010
-[#1015]: https://github.com/just-the-docs/just-the-docs/pull/1015
-[#1018]: https://github.com/just-the-docs/just-the-docs/pull/1018
-[#1019]: https://github.com/just-the-docs/just-the-docs/pull/1019
-[#1021]: https://github.com/just-the-docs/just-the-docs/pull/1021
-[#1027]: https://github.com/just-the-docs/just-the-docs/pull/1027
-[#1029]: https://github.com/just-the-docs/just-the-docs/pull/1029
-[#1040]: https://github.com/just-the-docs/just-the-docs/pull/1040
-[#1061]: https://github.com/just-the-docs/just-the-docs/pull/1061
-[#1065]: https://github.com/just-the-docs/just-the-docs/pull/1065
-[#1071]: https://github.com/just-the-docs/just-the-docs/pull/1071
-[#1074]: https://github.com/just-the-docs/just-the-docs/pull/1074
-[#1076]: https://github.com/just-the-docs/just-the-docs/pull/1076
-[#1077]: https://github.com/just-the-docs/just-the-docs/pull/1077
-[#1090]: https://github.com/just-the-docs/just-the-docs/pull/1090
-[#1091]: https://github.com/just-the-docs/just-the-docs/pull/1091
-[#1092]: https://github.com/just-the-docs/just-the-docs/pull/1092
-[#1095]: https://github.com/just-the-docs/just-the-docs/pull/1095
+[#945]: https://github.com/anwarjaved/tina-cms-test/pull/945
+[#999]: https://github.com/anwarjaved/tina-cms-test/pull/999
+[#1000]: https://github.com/anwarjaved/tina-cms-test/pull/1000
+[#1001]: https://github.com/anwarjaved/tina-cms-test/pull/1001
+[#1010]: https://github.com/anwarjaved/tina-cms-test/pull/1010
+[#1015]: https://github.com/anwarjaved/tina-cms-test/pull/1015
+[#1018]: https://github.com/anwarjaved/tina-cms-test/pull/1018
+[#1019]: https://github.com/anwarjaved/tina-cms-test/pull/1019
+[#1021]: https://github.com/anwarjaved/tina-cms-test/pull/1021
+[#1027]: https://github.com/anwarjaved/tina-cms-test/pull/1027
+[#1029]: https://github.com/anwarjaved/tina-cms-test/pull/1029
+[#1040]: https://github.com/anwarjaved/tina-cms-test/pull/1040
+[#1061]: https://github.com/anwarjaved/tina-cms-test/pull/1061
+[#1065]: https://github.com/anwarjaved/tina-cms-test/pull/1065
+[#1071]: https://github.com/anwarjaved/tina-cms-test/pull/1071
+[#1074]: https://github.com/anwarjaved/tina-cms-test/pull/1074
+[#1076]: https://github.com/anwarjaved/tina-cms-test/pull/1076
+[#1077]: https://github.com/anwarjaved/tina-cms-test/pull/1077
+[#1090]: https://github.com/anwarjaved/tina-cms-test/pull/1090
+[#1091]: https://github.com/anwarjaved/tina-cms-test/pull/1091
+[#1092]: https://github.com/anwarjaved/tina-cms-test/pull/1092
+[#1095]: https://github.com/anwarjaved/tina-cms-test/pull/1095
 
-[#1068]: https://github.com/just-the-docs/just-the-docs/pull/1068
-[#1135]: https://github.com/just-the-docs/just-the-docs/pull/1135
+[#1068]: https://github.com/anwarjaved/tina-cms-test/pull/1068
+[#1135]: https://github.com/anwarjaved/tina-cms-test/pull/1135

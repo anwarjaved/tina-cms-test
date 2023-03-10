@@ -1,10 +1,10 @@
 package.json
 package-lock.json
 _site
-assets/css/just-the-docs-default.scss
-assets/css/just-the-docs-light.scss
-assets/css/just-the-docs-dark.scss
+assets/css/tina-cms-test-default.scss
+assets/css/tina-cms-test-light.scss
+assets/css/tina-cms-test-dark.scss
 assets/js/vendor/lunr.min.js
 assets/js/search-data.json
-assets/js/just-the-docs.js
+assets/js/tina-cms-test.js
 *.md

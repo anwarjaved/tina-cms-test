@@ -12,7 +12,7 @@ layout: table_wrappers
   {% comment %}
     This is a bandaid fix to properly render breadcrumbs; as of now, there is some variable leakage between the sidebar component (which computes parents, grandparents) and the breadcrumbs component. We plan to remove this in a future release to deduplicate code.
 
-    For more context, see https://github.com/just-the-docs/just-the-docs/pull/1058#discussion_r1057014053
+    For more context, see https://github.com/anwarjaved/tina-cms-test/pull/1058#discussion_r1057014053
   {% endcomment %}
   {% capture nav %}
     {% assign pages_top_size = site.html_pages

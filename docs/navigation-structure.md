@@ -248,7 +248,7 @@ To add auxiliary links to your site (in the upper right on all pages), add it to
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+    - "//github.com/anwarjaved/tina-cms-test"
 ```
 
 ---
@@ -269,7 +269,7 @@ External links will appear in the navigation after the links to ordinary pages, 
 # External navigation links
 nav_external_links:
   - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+    url: https://github.com/anwarjaved/tina-cms-test
     hide_icon: false # set to true to hide the external link icon - defaults to false
 ```
 

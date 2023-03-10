@@ -117,10 +117,10 @@ search_exclude: true
 
 If you use Just the Docs as a remote theme, you do not need the following steps.
 
-If you use the theme as a gem, you must initialize the search by running this `rake` command that comes with `just-the-docs`:
+If you use the theme as a gem, you must initialize the search by running this `rake` command that comes with `tina-cms-test`:
 
 ```bash
-$ bundle exec just-the-docs rake search:init
+$ bundle exec tina-cms-test rake search:init
 ```
 
 This command creates the `assets/js/zzzz-search-data.json` file that Jekyll uses to create your search index.
@@ -142,7 +142,7 @@ By default, the search feature indexes a page's `.content`, `.title`, and *some*
 
 1. When Just the Docs is a local or gem theme, ensure `assets/js/zzzz-search-data.json` is up-to-date with [Generate search index when used as a gem](#generate-search-index-when-used-as-a-gem).
 2. Add a new file named `_includes/lunr/custom-data.json`. Insert custom Liquid code that reads your data (e.g. the page object at `include.page`) then generates custom Javascript fields that hold the custom data you want to index. Verify these fields in the generated `assets/js/search-data.json`.
-3. Add a new file named `_includes/lunr/custom-index.js`. Insert custom Javascript code that reads your custom Javascript fields and inserts them into the search index. You may want to inspect `assets/js/just-the-docs.js` to better understand the code.
+3. Add a new file named `_includes/lunr/custom-index.js`. Insert custom Javascript code that reads your custom Javascript fields and inserts them into the search index. You may want to inspect `assets/js/tina-cms-test.js` to better understand the code.
 
 #### Example
 
@@ -159,7 +159,7 @@ This example adds front matter `usage` and `examples` fields to the search index
 ```
 {% endraw %}
 
-`_includes/lunr/custom-index.js` custom code is inserted into the Javascript loop of `assets/js/just-the-docs.js`. All custom Javascript fields are accessed as fields of `docs[i]` such as `docs[i].myusage`. Finally, append your custom fields on to the already existing `docs[i].content`.
+`_includes/lunr/custom-index.js` custom code is inserted into the Javascript loop of `assets/js/tina-cms-test.js`. All custom Javascript fields are accessed as fields of `docs[i]` such as `docs[i].myusage`. Finally, append your custom fields on to the already existing `docs[i].content`.
 
 ```javascript
 const content_to_merge = [docs[i].content, docs[i].myusage, docs[i].myexamples];
