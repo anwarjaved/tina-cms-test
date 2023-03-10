@@ -20,7 +20,6 @@ url: "https://tina-cms-test.github.io" # the base hostname & protocol for your s
 repository: anwarjaved/tina-cms-test # for github-metadata
 
 permalink: pretty
-theme: tina-cms-test
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
    - .sass-cache/
@@ -33,18 +32,6 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
- # specific to the theme website:
-   - bin/
-   - lib/
-   - "*.gemspec"
-   - "*.gem"
-   - LICENSE.txt
-   - package.json
-   - package-lock.json
-   - Rakefile
-   - README.md
- # theme test code
-   - fixtures/
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/tina-cms-test.png"
