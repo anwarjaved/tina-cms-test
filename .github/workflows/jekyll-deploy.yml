@@ -24,7 +24,7 @@ jobs:
         uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
           provider: 'github'
-          token: "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" # It's your Personal Access Token(PAT)
+          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
         env:
           JEKYLL_ENV: production
-          GH_PAGES_TOKEN: "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"
+          GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
