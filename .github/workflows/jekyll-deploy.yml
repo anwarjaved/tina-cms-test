@@ -5,7 +5,7 @@ on:
       - main
 
 jobs:
-  build-test-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,11 +20,29 @@ jobs:
       - run: sudo gem install bundler && sudo bundle install
       - run: npm install
       - run: npm run build
-      - name: Jekyll Deploy Action
-        uses: jeffreytse/jekyll-deploy-action@v0.4.0
+      - name: Upload artifact
+        uses: actions/upload-artifact@main
         with:
-          provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
-        env:
-          JEKYLL_ENV: production
-          GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: ${{ inputs.name }}
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 3
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
